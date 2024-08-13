@@ -27,14 +27,14 @@ dev-dependencies = [
 
 [tool.hatch.version]
 source = "code"
-path = "src/random-test/__init__.py"
+path = "src/random_test/__init__.py"
 search-paths = ["src"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/random-test"]
+packages = ["src/random_test"]
 
 [tool.rye.scripts]
 format = "black ."

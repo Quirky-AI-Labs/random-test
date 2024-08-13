@@ -2,10 +2,11 @@
 name = "random-test"
 description = "An random test project for publishing."
 authors = [
-    { name = "Aayushshah196", email = "aayushshah196@gmail.com" }
+    { name = "Quirky-AI-Labs", email = "quirkyailabs@gmail.com" }
 ]
-repository = "https://github.com/Aayushshah196/substack-python"
-homepage = "https://github.com/Aayushshah196/substack-python"
+version = "0.1.0"
+repository = "https://github.com/Quirky-AI-Labs/random-test"
+homepage = "https://github.com/Quirky-AI-Labs/random-test"
 license = {text = "MIT License"}
 keywords = ["random", "test", "random-test"]
 readme = "README.md"

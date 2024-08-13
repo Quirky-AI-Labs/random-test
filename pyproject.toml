@@ -4,7 +4,7 @@ description = "An random test project for publishing."
 authors = [
     { name = "Quirky-AI-Labs", email = "quirkyailabs@gmail.com" }
 ]
-version = "0.1.1"
+version = "0.1.2"
 repository = "https://github.com/Quirky-AI-Labs/random-test"
 homepage = "https://github.com/Quirky-AI-Labs/random-test"
 license = {text = "MIT License"}

@@ -1,5 +1,5 @@
 [project]
-name = "random-test"
+name = "highly-random-test"
 description = "An random test project for publishing."
 authors = [
     { name = "Quirky-AI-Labs", email = "quirkyailabs@gmail.com" }

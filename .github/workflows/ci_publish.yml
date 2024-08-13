@@ -38,8 +38,8 @@ jobs:
       - name: Get version
         id: get_version
         run: |
-          VERSION=$(python -c "from random_test import __version__; print(__version__)")
-          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+          VERSION=$(PYTHONPATH=src python -c "from random_test import __version__; print(__version__)")
+          echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
